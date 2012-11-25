@@ -1,0 +1,35 @@
+.row
+  .span6
+    #promos.carousel
+      .carousel-inner.slide
+        .item.active
+          img(src='/images/Capture.PNG')
+        .item
+          img(src='/images/bdb.PNG')
+        .item
+          img(src='/images/nyd.PNG')
+        .item
+          img(src='/images/bdb.PNG')
+.row
+  .span6
+    .sitecontent
+      h1 About Us
+      span Ultima Hair designers first opened in 1982. Our devoted clients and dedicated staff have made the Ultima the fabulous place it is today. We have Redken Elite status and have won Reader.s Choice Award for Best Salon and/or Spa for three years in a row. We continue to educate our staff so we can educate our clients how to maintain the great looks and wellbeing they have acquired here. For rejuvenation of the body, respite for the mind, and sanctuary for the spirit come visit Ultima Hair Designers Salon & Spa.
+    .carousela
+      .carouseal-inner
+        .itema.aactive
+          img(src='/images/ultima/DSCN0348.jpg')
+        .itema
+          img(src='/images/ultima/DSCN0382.jpg')
+        .itema
+          img(src='/images/ultima/DSCN0408.jpg')
+        .itema
+          img(src='/images/ultima/DSCN0418.jpg')
+        .itema
+          img(src='/images/ultima/DSCN0423.jpg')
+        .itema
+          img(src='/images/ultima/DSCN0429.jpg')
+  .span4
+    h1 Redken Elite
+    img(style="padding-top: 8px;", align="right", src="/images/redken.jpg")
+    span Ultima is a Club 5th Ave Elite Salon.  Being a member of Redken's Elite Partner program ensures that our staff has the highest expertise in Redken services.  As well as ensuring that our clients have access to only the best Redken products.

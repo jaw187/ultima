@@ -1,0 +1,30 @@
+body {
+  background-color: #666666;
+  color: #333;
+}
+
+ul.icons li { 
+  display: inline;
+  padding: 8px;
+}
+
+span.tablelabel {
+  font-size: 66%;
+}
+
+div.staff div {
+  font-size: 82%;
+  margin-bottom: 20px;
+}
+
+div.staff {
+  padding: 20px;
+}
+
+div#bridaloff {
+  font-size: 82%;
+}
+
+div#bridaloff h3 {
+  margin-top: 10px; margin-bottom: 10px;
+}

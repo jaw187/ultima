@@ -1,0 +1,84 @@
+      body {
+        margin: auto;
+        width: 960px;
+        background-color: #999999;
+      }
+      div#nav {
+        text-align: center;
+        margin-bottom: 24px;
+      }
+      div#header h1 {
+        font-size: 400%;
+        font-family: Palace Script MT;
+        font-weight: bolder;
+      }
+      div#header {
+        background-color: #9999CC;
+        padding: 16px;
+      }
+      div#content {
+        margin-left: 16px;
+      }
+      div#socialIcons {
+
+      }
+      div#socialIcons ul li { display: inline; padding-right: 16px; list-style-type: none; }
+
+      div#socialIcons, div#hours {
+        background-color: #FFFFFF;
+        padding: 12px;
+        margin-left: 16px;
+        margin-bottom: 16px;
+        text-align: center;
+      }
+      div#socialIcons, div#hours h2 {
+        font-size: 200%; font-weight: Bolder; color: #9999CC;
+      }
+      div#aboutus p {
+        margin-bottom: 16px;
+      }
+      div#footer {
+        background-color: #FFCCCC;
+        padding: 16px;
+      }
+      div.maincontent {
+        background-color: #FFFFFF;
+        margin-bottom: 24px;
+        margin-right: 24px;
+        padding: 16px;
+        color: #333333;
+      }
+      div.maincontent h1 {
+        font-size:  333%;
+        font-weight: bolder;
+        color: #9999CC;
+        margin-bottom: 16px;
+      }
+
+      div#menu th {
+        color: #9999CC;
+        font-weight: bolder;
+        font-size: 166%;
+        padding-top: 16px;
+      }
+
+      div#menu table, th,td {
+        border-style: none;
+        padding-bottom: 4px;
+        padding-left: 4px;
+      }
+
+      div#menu {
+        padding: 16px;
+        background-color: white;
+      }
+
+      div#menu span.menudetail {
+        font-size: 75%;
+        color: #333333
+      }
+
+      ul#footerlinks, ul#footerlinks li {
+        display: inline; padding-right: 16px; list-style-type: none;
+      }
+

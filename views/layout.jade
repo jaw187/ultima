@@ -1,0 +1,159 @@
+!!!
+html
+  head
+    title Ultima Hair Designers Salon and Spa - Andover, NJ
+    link(href='/bootstrap/docs/assets/css/bootstrap.css', rel='stylesheet', type='text/css');
+    link(href='/bootstrap/docs/assets/css/bootstrap-responsive.css', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .container
+      .row
+        .span12
+          a(href='/')
+            img(src='header.jpg', border='0')
+      .navbar.navbar-static-top
+        .navbar-inner
+          .container
+            a.btn.btn-navbar(data-toggle='collapse', data-target='.nav-collapse')
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a.brand(href='/') Home
+            div.nav-collapse
+              ul.nav
+                li.dropdown
+                  a.dropdown-toggle(href='#', data-toggle='dropdown') Menu
+                    b.caret
+                  ul.dropdown-menu
+                    li
+                      a(href='/salonmenu.html') Salon Menu
+                    li Spa Menu
+                    li
+                      a(href='/spamenu-massage.html') Massages
+                    li
+                      a(href='/spamenu-body.html') Body Treatments
+                    li
+                      a(href='/spamenu-wax.html') Waxing
+                    li
+                      a(href='/spamenu-facials.html') Facials
+                li.dropdown
+                  a.dropdown-toggle(href='#', data-toggle='dropdown') Staff
+                    b.caret
+                  ul.dropdown-menu
+                    li Salon
+                    li
+                      a(href='/staff-redken.html') Redken Artists
+                    li
+                      a(href='/staff-stylists.html') Stylists
+                    li
+                      a(href='/staff-masterstylists.html') Master Stylists
+                    li
+                      a(href='/staff-specialists.html') Specialists
+                    li
+                      a(href='/staff-nails.html') Nail Technicians
+                    li Spa
+                    li
+                      a(href='/staff-estheticians.html') Estheticians
+                    li
+                      a(href='/staff-massage.html') Massage Therapists
+                li.dropdown
+                  a.dropdown-toggle(href='#', data-toggle='dropdown') Bridal
+                    b.caret
+                  ul.dropdown-menu
+                    li
+                      a(href='/bridal-pics.html') Photos
+                    li
+                      a(href='/bridal-offers.html') Offers
+                li
+                  a(href='/promotions.html') Promotions
+                li
+                  a(href='/giftcertificates.html') Gift Certificates
+                li
+                  a(href='#contact') Contact Us
+                li.dropdown
+                  a.dropdown-toggle(href='#', data-toggle='dropdown') Find Us On
+                    b.caret
+                  ul.dropdown-menu
+                    li
+                      a(href='https://www.facebook.com/ultimahairdesigners', target='new') Facebook
+                    li
+                      a(href='https://twitter.com/theultimasalon', target='new') Twitter
+                    li
+                      a(href='http://www.yelp.com/biz/ultima-hair-designers-and-day-spa-newton', target='new') Yelp
+                    li
+                      a(href='http://goo.gl/maps/ITP19') Google
+      body!= body
+      .row
+        .span3.well
+          ul.nav.nav-list
+            li.nav-header Menu
+            li
+              a(href='/salonmenu.html') Salon
+            li
+              a(href='/spamenu.html') Spa
+            li.nav-header Salon Staff
+            li
+              a(href='/staff-redken.html') Redken Artists
+            li
+              a(href='/staff-stylists.html') Stylists
+            li
+              a(href='/staff-masterstylists.html') Master Stylists
+            li
+              a(href='/staff-specialists') Specialists
+            li
+              a(href='/staff-nails.html') Nail Technicians
+            li.nav-header Spa Staff
+            li
+              a(href='/staff-estheticians.html') Estheticians
+            li
+              a(href='/staff-massage.html') Massage Therapists
+            li.nav-header Bridal
+            li
+              a(href='/bridal-pics.html') Photos
+            li
+              a(href='/bridal-offers.html') Offers
+        .span3.well
+          ul.nav.nav-list
+            li.nav-header Special Offers
+            li
+              a(href='/promotions.html') Promotions
+            li
+              a(href='/giftcertificates.html') Gift Certificates
+            li.nav-header Contact Us
+            li
+              a(href='/reservations.html') Reservations
+            li
+              a(href='/contact.html') Contact
+        .span4.well
+          h2 Contact Us
+          a(id="contact")
+          address
+            strong Ultima Hair Designers Salon & Spa
+            br
+            span 253 Newton Sparta Road
+            br
+            span Andover, NJ 07860
+            br
+            abbr(title="Phone") P:
+            span 973-579-1199
+          h2 Find Us On
+          ul.unstyled.icons
+            li
+              a(href='#')
+                img(src='/icons/facebook.png', border='0')
+            li
+              a(href='#')
+                img(src='/icons/twitter.png', border='0')
+            li
+              a(href='#')
+                img(src='/icons/yelp.png', border='0')
+            li
+              a(href='#')
+                img(src='/icons/map.png', border='0')
+    script(src="/bootstrap/docs/assets/js/jquery.js")
+    script(src="/bootstrap/docs/assets/js/bootstrap-dropdown.js")
+    script(src="/bootstrap/docs/assets/js/bootstrap-collapse.js")
+    script(src="/bootstrap/docs/assets/js/bootstrap-carousel.js")
+    script(src="/bootstrap/docs/assets/js/bootstrap-transition.js")
+    script
+      $('.carousel').carousel();

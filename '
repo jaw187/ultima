@@ -1,0 +1,59 @@
+.row
+  .span8
+    #promos.carousel.slide
+      .carousel-inner
+        .item.active
+          a(href='/promotions.html')
+            img(src='/images/specials/201202/car/1.PNG')
+        .item
+          a(href='/promotions.html')
+            img(src='/images/specials/201202/car/2.PNG')
+        .item
+          a(href='/promotions.html')
+            img(src='/images/specials/201202/car/3.PNG')
+  .span4
+    script(charset="utf-8", src="http://widgets.twimg.com/j/2/widget.js")
+    script
+      new TWTR.Widget({  version: 2,  type: 'profile',  rpp: 1,  interval: 30000,  theme: {    shell: {        },    tweets: {  }  },  features: {    scrollbar: false,    loop: false,    live: false,    behavior: 'all'  }}).render().setUser('theultimasalon').start();
+.row
+  .span3.well
+    | Ultima Hair Designers Salon & Spa welcomes you to our business.  the art of creating beautiful, "healthy" hair, skin, nails & body, is our love & profession.  "Passing along" out knowledge is what our teams does best.  Each team member has consistent education to reach performance goals of Stylists, Designer, Master Designer, Redken Certified Color Speacialists, Bridal Specialist, Esthetic Consultant, & Certified Bodywellness Therapiest.  Ultima is proud to announce that we have Redken award winning hair designers and Master esthetician's from Yonka Paris.  Thank you for joining us.
+  .span8
+    #promos.carousel.slide
+      .carousel-inner
+        .item.active
+          img(src='/images/ultima/DSCN0348.jpg')
+        .item
+          img(src='/images/ultima/DSCN0355.jpg')
+        .item
+          img(src='/images/ultima/DSCN0374.jpg')
+        .item
+          img(src='/images/ultima/DSCN0382.jpg')
+        .item
+          img(src='/images/ultima/DSCN0408.jpg')
+        .item
+          img(src='/images/ultima/DSCN0418.jpg')
+        .item
+          img(src='/images/ultima/DSCN0423.jpg')
+        .item
+          img(src='/images/ultima/DSCN0429.jpg')
+        .item
+          img(src='/images/ultima/DSCN0438.jpg')
+        .item
+          img(src='/images/ultima/DSCN0445.jpg')
+        .item
+          img(src='/images/ultima/DSCN0725.jpg')
+        .item
+          img(src='/images/ultima/DSCN0733.jpg')
+        .item
+          img(src='/images/ultima/DSCN0740.jpg')
+        .item
+          img(src='/images/ultima/DSCN0749.jpg')
+        .item
+          img(src='/images/ultima/DSCN0750.jpg')
+        .item
+          img(src='/images/ultima/DSCN0759.jpg')
+        .item
+          img(src='/images/ultima/DSCN0760.jpg')
+        .item
+          img(src='/images/ultima/DSCN0761.jpg')
