@@ -33,6 +33,8 @@ app.configure('production', function(){
 app.get('/', routes.index);
 
 app.get('/salonmenu.html', routes.salonmenu);
+app.get('/salonmenu-nails.html', routes.salonmenunails);
+app.get('/salonmenu-makeup.html', routes.salonmenumakeup);
 app.get('/spamenu-massage.html', routes.spamenumassage);
 app.get('/spamenu-body.html', routes.spamenubody);
 app.get('/spamenu-wax.html', routes.spamenuwax);

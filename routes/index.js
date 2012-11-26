@@ -11,6 +11,14 @@ exports.salonmenu = function (req,res) {
   res.render('salonmenu');
 };
 
+exports.salonmenunails = function (req,res) {
+  res.render('salonmenu-nails');
+};
+
+exports.salonmenumakeup = function (req,res) {
+  res.render('salonmenu-makeup');
+}
+
 exports.spamenu = function (req,res) {
   res.render('spamenu');
 };
